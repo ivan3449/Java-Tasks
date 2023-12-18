@@ -15,7 +15,8 @@ public class T1_isBewteen {
 
         if ((c >= a && c <= b) || (c <= a && c >= b)) {
             System.out.println(c + " is between " + a + " and " + b);
-        } else {
+        }
+        else {
             System.out.println(c + " is not between " + a + " and " + b);
         }
     }
