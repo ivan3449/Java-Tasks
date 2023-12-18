@@ -18,6 +18,5 @@ public class T2_swapValues {
         a = b;
         b = temp;
         System.out.println("A now is: " + a + " and B now is: " + b);
-
     }
 }
