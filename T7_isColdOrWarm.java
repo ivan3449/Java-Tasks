@@ -6,7 +6,7 @@ public class T7_isColdOrWarm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter temeperature: ");
+        System.out.println("Enter temperature: ");
         int temperature = sc.nextInt(); //Celsius, temperature [-100..100]
 
         if(temperature<-100 || temperature>100){
