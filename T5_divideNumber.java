@@ -18,6 +18,8 @@ public class T5_divideNumber {
         else if(n%thirdDigit==0 && n%secondDigit==0 && n%firstDigit==0){
             System.out.println("The number " + n + " is dividable to " + firstDigit + ", " + secondDigit + ", " + thirdDigit );
         }
-        else System.out.println("The number is not dividable to his digits!");
+        else {
+            System.out.println("The number is not dividable to his digits!");
+        }
     }
 }
